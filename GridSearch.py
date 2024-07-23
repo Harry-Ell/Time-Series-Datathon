@@ -1,4 +1,7 @@
-print('Beginning run', flush = True)
+"""
+This script contains the grid search procedure for hyperparameter tuning to the lgb model utilised
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,7 +10,6 @@ from sklearn.metrics import mean_squared_log_error as rmsler
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer, mean_squared_error
 
-print('packages loaded', flush = True)
 Holidays = pd.read_csv('holidays_events.csv', 
                        parse_dates=['date'], 
                        index_col=['date'])
