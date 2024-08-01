@@ -1,7 +1,7 @@
 """
 This script contains the grid search procedure for hyperparameter tuning 
 for the lgb model utilised. Final used values found in the notebook 
-Final_Submission.ipynb.
+Final_Submission.ipynb. 
 """
 
 import pandas as pd
